@@ -15,6 +15,9 @@
 		90B046EA22153DAF006066D8 /* DynamicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B046E822153DAF006066D8 /* DynamicCell.swift */; };
 		90B046EB22153DAF006066D8 /* DynamicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B046E922153DAF006066D8 /* DynamicCell.xib */; };
 		90BB104C221BD327007D3481 /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 90BB104B221BD326007D3481 /* Swift.gitignore */; };
+		90BB104E221BDED7007D3481 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB104D221BDED7007D3481 /* ListViewController.swift */; };
+		90BB1052221BE00B007D3481 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB1050221BE00B007D3481 /* ListCell.swift */; };
+		90BB1053221BE00B007D3481 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BB1051221BE00B007D3481 /* ListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		90B046E822153DAF006066D8 /* DynamicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCell.swift; sourceTree = "<group>"; };
 		90B046E922153DAF006066D8 /* DynamicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicCell.xib; sourceTree = "<group>"; };
 		90BB104B221BD326007D3481 /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
+		90BB104D221BDED7007D3481 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		90BB1050221BE00B007D3481 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		90BB1051221BE00B007D3481 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,9 @@
 		90B046D422153D3E006066D8 /* DynamicHeight */ = {
 			isa = PBXGroup;
 			children = (
+				90BB104F221BDFDD007D3481 /* ListCell */,
 				90B046E722153D7E006066D8 /* TableViewCell */,
+				90BB104D221BDED7007D3481 /* ListViewController.swift */,
 				90B046D522153D3E006066D8 /* AppDelegate.swift */,
 				90B046D722153D3E006066D8 /* ViewController.swift */,
 				90B046D922153D3E006066D8 /* Main.storyboard */,
@@ -79,6 +87,15 @@
 				90B046E922153DAF006066D8 /* DynamicCell.xib */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		90BB104F221BDFDD007D3481 /* ListCell */ = {
+			isa = PBXGroup;
+			children = (
+				90BB1050221BE00B007D3481 /* ListCell.swift */,
+				90BB1051221BE00B007D3481 /* ListCell.xib */,
+			);
+			path = ListCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BB104C221BD327007D3481 /* Swift.gitignore in Resources */,
+				90BB1053221BE00B007D3481 /* ListCell.xib in Resources */,
 				90B046E022153D51006066D8 /* LaunchScreen.storyboard in Resources */,
 				90B046EB22153DAF006066D8 /* DynamicCell.xib in Resources */,
 				90B046DD22153D51006066D8 /* Assets.xcassets in Resources */,
@@ -156,6 +174,8 @@
 			files = (
 				90B046D822153D3E006066D8 /* ViewController.swift in Sources */,
 				90B046EA22153DAF006066D8 /* DynamicCell.swift in Sources */,
+				90BB104E221BDED7007D3481 /* ListViewController.swift in Sources */,
+				90BB1052221BE00B007D3481 /* ListCell.swift in Sources */,
 				90B046D622153D3E006066D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

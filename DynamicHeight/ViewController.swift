@@ -69,7 +69,13 @@ class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ListViewController") as! ListViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+
+//        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ListViewController") as? ListViewController
+//
+//        self.navigationController?.pushViewController(vc!, animated: true)
+   
     }
    
 
