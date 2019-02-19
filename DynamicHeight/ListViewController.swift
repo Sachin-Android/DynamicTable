@@ -9,14 +9,14 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
+class ListViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tblList: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.tblList.register(UINib.init(nibName: "ListCell", bundle: nil), forCellReuseIdentifier: "ListCell")
+        self.tblList.register(UINib.init(nibName: "ListCell", bundle: nil), forCellReuseIdentifier: "Cell")
         tblList.estimatedRowHeight = 80
         tblList.rowHeight = UITableView.automaticDimension
     }
@@ -29,8 +29,8 @@ class ListViewController: UIViewController {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        tableView.estimatedRowHeight = 80.0 // standard tableViewCell height
-        tableView.rowHeight = UITableView.automaticDimension
+     //   tableView.estimatedRowHeight = 80.0 // standard tableViewCell height
+        //tableView.rowHeight = UITableView.automaticDimension
         return 5
         
         
@@ -46,7 +46,9 @@ class ListViewController: UIViewController {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell  = tableView.dequeueReusableCell(withIdentifier: "ListCell") as! ListCell
+        let cell  = tableView.dequeueReusableCell(withIdentifier: "Cell") as! ListCell
+        
+        cell.lblTitle.text = "Test Sachin Daingade";
         return cell;
         
     }
