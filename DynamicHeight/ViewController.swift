@@ -8,7 +8,57 @@
 
 import UIKit
 
+
+class Circle
+{
+    
+    var radius : Double = 0.0
+    {
+        willSet
+        {
+            print("New value set \(newValue)")
+        }
+        didSet
+        {
+              print("New value set \(oldValue)")
+            if radius < 0
+            {
+                radius = 0
+            }
+        }
+    }
+    
+    
+    
+    public private(set) var area: Double = 0
+    public private(set) var diameter: Double = 0
+    private func calculateFigure()
+    {
+        area = Double.pi * radius * radius
+        diameter = 2 * Double.pi * radius
+    }
+    
+}
+
+
+class lazyInitial
+{
+    lazy var name: String  =   {
+        print("Data initialized )")
+        return "Hello World"
+        
+    }()
+    
+    
+    var lastName: String = "Hello Data"
+}
+
+
+
 class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource{
+    
+    
+    
     
     
     @IBOutlet weak var tblProduct: UITableView!
@@ -18,6 +68,14 @@ class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSour
     var arrCarDesc = [""]
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let obj = Circle()
+        obj.radius = -10
+        print("area = \(obj.area)")
+        print("Diameter = \(obj.diameter)")
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
         
         self.tblProduct.register(UINib.init(nibName: "DynamicCell", bundle: nil), forCellReuseIdentifier: "DynamicCell")
