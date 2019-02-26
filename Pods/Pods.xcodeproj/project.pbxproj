@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17478EC53C9BF743B3E5CD731004F560 /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB114D8FE81E63A8C996E138822ECE7 /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1834038AF3696FA458A73165828D6C27 /* Pods-DynamicHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BABBAEA5DA11AEFF67C9D2FBE92F4286 /* Pods-DynamicHeight-dummy.m */; };
+		4D28C524D046AB74AE124CC84C00CBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		89CA430B792013B78EA539FE48F8F43A /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE24D560342A08D245C016A488475CD /* FoldingCell-dummy.m */; };
+		C10B473DFDB31B4CEC0A3689A293634F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C14482FF181F87E17E61B101BA92B071 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0558E5411C91852109AB7CB20064F /* FoldingCell.swift */; };
+		D1006116354DE271C3DD7E62CE4EB6F7 /* Pods-DynamicHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B658D630544B0E78FF11C867698F4604 /* Pods-DynamicHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80DFC1928E39E9495FA84350768B39CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEE757995B42CEB4659F9AB4467196D;
+			remoteInfo = FoldingCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AE0558E5411C91852109AB7CB20064F /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		2EA02C89227EF24EDACF250C376A1B41 /* Pods_DynamicHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicHeight.framework; path = "Pods-DynamicHeight.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4EAF932F76DE4885296FBCE8E2E635 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingCell.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442E2D551F1A2C1473BA5139BA2164BF /* Pods-DynamicHeight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamicHeight.modulemap"; sourceTree = "<group>"; };
+		4EB114D8FE81E63A8C996E138822ECE7 /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
+		56C55F28270E8B73F51E7BBEE13A42A6 /* Pods-DynamicHeight-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicHeight-frameworks.sh"; sourceTree = "<group>"; };
+		6BCB9F5D4504280CF157476434E28EE2 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoldingCell.modulemap; sourceTree = "<group>"; };
+		6BE24D560342A08D245C016A488475CD /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
+		7D03C8CE81C4C9F19AFE37EE210DA879 /* Pods-DynamicHeight-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicHeight-acknowledgements.plist"; sourceTree = "<group>"; };
+		87A56D2D31771A334D982CBA03E694E5 /* Pods-DynamicHeight-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicHeight-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1C7AECB6EA0E1B1B7BACD0A942CB13 /* Pods-DynamicHeight-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicHeight-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B658D630544B0E78FF11C867698F4604 /* Pods-DynamicHeight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicHeight-umbrella.h"; sourceTree = "<group>"; };
+		B6EDCC398A6DEFAB749A7E260470B31B /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
+		BABBAEA5DA11AEFF67C9D2FBE92F4286 /* Pods-DynamicHeight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicHeight-dummy.m"; sourceTree = "<group>"; };
+		C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
+		D29324A14E9DCC84F3BE86819A9F7A9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43773EF54051BAF9CF701755AA82281 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF4A18EB727969645A60B8922807ED32 /* Pods-DynamicHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicHeight.release.xcconfig"; sourceTree = "<group>"; };
+		E220F72894C81EAEC5A71D116E21B8F3 /* Pods-DynamicHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicHeight.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA1BDC28CBDA7475B9E1A9F0D9227BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10B473DFDB31B4CEC0A3689A293634F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED8FCEBD019C56D12D58A2BAED1BB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D28C524D046AB74AE124CC84C00CBC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C1AF8819FC36275028CDB9DEF0DA63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				319350BD978C0A5286CF2F8E706D28A8 /* FoldingCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0D2FFF334CFF28C46D873771A3696F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4EAF932F76DE4885296FBCE8E2E635 /* FoldingCell.framework */,
+				2EA02C89227EF24EDACF250C376A1B41 /* Pods_DynamicHeight.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319350BD978C0A5286CF2F8E706D28A8 /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				2AE0558E5411C91852109AB7CB20064F /* FoldingCell.swift */,
+				C871AB3E1D87E821EA070ABF26663055 /* Support Files */,
+			);
+			name = FoldingCell;
+			path = FoldingCell;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		462AB6A8825931F58F47B6FAB6F06C1D /* Pods-DynamicHeight */ = {
+			isa = PBXGroup;
+			children = (
+				D29324A14E9DCC84F3BE86819A9F7A9F /* Info.plist */,
+				442E2D551F1A2C1473BA5139BA2164BF /* Pods-DynamicHeight.modulemap */,
+				9A1C7AECB6EA0E1B1B7BACD0A942CB13 /* Pods-DynamicHeight-acknowledgements.markdown */,
+				7D03C8CE81C4C9F19AFE37EE210DA879 /* Pods-DynamicHeight-acknowledgements.plist */,
+				BABBAEA5DA11AEFF67C9D2FBE92F4286 /* Pods-DynamicHeight-dummy.m */,
+				56C55F28270E8B73F51E7BBEE13A42A6 /* Pods-DynamicHeight-frameworks.sh */,
+				87A56D2D31771A334D982CBA03E694E5 /* Pods-DynamicHeight-resources.sh */,
+				B658D630544B0E78FF11C867698F4604 /* Pods-DynamicHeight-umbrella.h */,
+				E220F72894C81EAEC5A71D116E21B8F3 /* Pods-DynamicHeight.debug.xcconfig */,
+				DF4A18EB727969645A60B8922807ED32 /* Pods-DynamicHeight.release.xcconfig */,
+			);
+			name = "Pods-DynamicHeight";
+			path = "Target Support Files/Pods-DynamicHeight";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				05C1AF8819FC36275028CDB9DEF0DA63 /* Pods */,
+				0D2FFF334CFF28C46D873771A3696F3E /* Products */,
+				803C206E64655074D267B1740FD67167 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		803C206E64655074D267B1740FD67167 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				462AB6A8825931F58F47B6FAB6F06C1D /* Pods-DynamicHeight */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C871AB3E1D87E821EA070ABF26663055 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB9F5D4504280CF157476434E28EE2 /* FoldingCell.modulemap */,
+				C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */,
+				6BE24D560342A08D245C016A488475CD /* FoldingCell-dummy.m */,
+				B6EDCC398A6DEFAB749A7E260470B31B /* FoldingCell-prefix.pch */,
+				4EB114D8FE81E63A8C996E138822ECE7 /* FoldingCell-umbrella.h */,
+				D43773EF54051BAF9CF701755AA82281 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingCell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65FCE6C75AB243F81E4DB8D3E4A69FE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1006116354DE271C3DD7E62CE4EB6F7 /* Pods-DynamicHeight-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7F43260DEF211C2FA6F72EB3015FF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17478EC53C9BF743B3E5CD731004F560 /* FoldingCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BEE757995B42CEB4659F9AB4467196D /* FoldingCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9253E546D2BD8570E5C1EEF5B9611A /* Build configuration list for PBXNativeTarget "FoldingCell" */;
+			buildPhases = (
+				FC7F43260DEF211C2FA6F72EB3015FF7 /* Headers */,
+				153C98A6AC1746E736BFB270DB555CD8 /* Sources */,
+				8ED8FCEBD019C56D12D58A2BAED1BB50 /* Frameworks */,
+				DC9805D8FC48943CD6E575AA835B717F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingCell;
+			productName = FoldingCell;
+			productReference = 3C4EAF932F76DE4885296FBCE8E2E635 /* FoldingCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DE4BB7C16F5DF8112E3520D343364A6 /* Pods-DynamicHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98490A7C8FDD49490F723E9737008D21 /* Build configuration list for PBXNativeTarget "Pods-DynamicHeight" */;
+			buildPhases = (
+				65FCE6C75AB243F81E4DB8D3E4A69FE6 /* Headers */,
+				84281B3F919555FCEE6FF25DE672A703 /* Sources */,
+				3AA1BDC28CBDA7475B9E1A9F0D9227BC /* Frameworks */,
+				CF78E73634FB11495C0916F3FC6A3C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222D14B027178B34E5DBE17EF65BF679 /* PBXTargetDependency */,
+			);
+			name = "Pods-DynamicHeight";
+			productName = "Pods-DynamicHeight";
+			productReference = 2EA02C89227EF24EDACF250C376A1B41 /* Pods_DynamicHeight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D2FFF334CFF28C46D873771A3696F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BEE757995B42CEB4659F9AB4467196D /* FoldingCell */,
+				7DE4BB7C16F5DF8112E3520D343364A6 /* Pods-DynamicHeight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF78E73634FB11495C0916F3FC6A3C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9805D8FC48943CD6E575AA835B717F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153C98A6AC1746E736BFB270DB555CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA430B792013B78EA539FE48F8F43A /* FoldingCell-dummy.m in Sources */,
+				C14482FF181F87E17E61B101BA92B071 /* FoldingCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84281B3F919555FCEE6FF25DE672A703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1834038AF3696FA458A73165828D6C27 /* Pods-DynamicHeight-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222D14B027178B34E5DBE17EF65BF679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoldingCell;
+			target = 5BEE757995B42CEB4659F9AB4467196D /* FoldingCell */;
+			targetProxy = 80DFC1928E39E9495FA84350768B39CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56F5077CA4B86C5F712CB88F6401E47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E220F72894C81EAEC5A71D116E21B8F3 /* Pods-DynamicHeight.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicHeight/Pods-DynamicHeight.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D30701FB8E6CDD37E2E2A565F02FDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4A18EB727969645A60B8922807ED32 /* Pods-DynamicHeight.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicHeight/Pods-DynamicHeight.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E2A9650EA3B767751516F5AA9A25286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_MODULE_NAME = FoldingCell;
+				PRODUCT_NAME = FoldingCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A48299E1FFFEE7D07F128A8A2DBBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_MODULE_NAME = FoldingCell;
+				PRODUCT_NAME = FoldingCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9253E546D2BD8570E5C1EEF5B9611A /* Build configuration list for PBXNativeTarget "FoldingCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A48299E1FFFEE7D07F128A8A2DBBCE /* Debug */,
+				9E2A9650EA3B767751516F5AA9A25286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98490A7C8FDD49490F723E9737008D21 /* Build configuration list for PBXNativeTarget "Pods-DynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F5077CA4B86C5F712CB88F6401E47B /* Debug */,
+				7D30701FB8E6CDD37E2E2A565F02FDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -25,6 +25,8 @@ class Circle
             {
                 radius = 0
             }
+            
+            
         }
     }
     
@@ -71,10 +73,11 @@ class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSour
         
         
         let obj = Circle()
-        obj.radius = -10
+        obj.radius = 10
         print("area = \(obj.area)")
         print("Diameter = \(obj.diameter)")
         
+     //   obj.area = 30
         
         // Do any additional setup after loading the view, typically from a nib.
         
